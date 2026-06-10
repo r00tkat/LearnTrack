@@ -1,13 +1,13 @@
-package com.airtribe.learntrack;
+package com.learntrack;
 
-import com.airtribe.learntrack.entity.Course;
-import com.airtribe.learntrack.entity.Enrollment;
-import com.airtribe.learntrack.entity.Student;
-import com.airtribe.learntrack.exception.EntityNotFoundException;
-import com.airtribe.learntrack.exception.InvalidInputException;
-import com.airtribe.learntrack.service.CourseService;
-import com.airtribe.learntrack.service.EnrollmentService;
-import com.airtribe.learntrack.service.StudentService;
+import com.learntrack.entity.Course;
+import com.learntrack.entity.Enrollment;
+import com.learntrack.entity.Student;
+import com.learntrack.exception.EntityNotFoundException;
+import com.learntrack.exception.InvalidInputException;
+import com.learntrack.service.CourseService;
+import com.learntrack.service.EnrollmentService;
+import com.learntrack.service.StudentService;
 import java.util.List;
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.airtribe.learntrack.constants;
+package com.learntrack.constants;
 
 // Application-wide fixed values.
 public final class AppConstants {

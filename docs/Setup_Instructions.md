@@ -32,14 +32,14 @@ From the project root (`C:\Course\LearnTrack`):
 **Windows (PowerShell):**
 ```powershell
 javac -d out (Get-ChildItem -Recurse src -Filter *.java).FullName
-java -cp out com.airtribe.learntrack.Main
+java -cp out com.learntrack.Main
 ```
 
 **macOS / Linux:**
 ```bash
 find src -name "*.java" > sources.txt
 javac -d out @sources.txt
-java -cp out com.airtribe.learntrack.Main
+java -cp out com.learntrack.Main
 ```
 
 > Both approaches compile every `.java` file under `src` into an `out` folder, then run the `Main` class using its fully qualified name.

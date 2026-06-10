@@ -1,6 +1,6 @@
-package com.airtribe.learntrack.repository;
+package com.learntrack.repository;
 
-import com.airtribe.learntrack.entity.Enrollment;
+import com.learntrack.entity.Enrollment;
 import java.util.ArrayList;
 import java.util.List;
 
