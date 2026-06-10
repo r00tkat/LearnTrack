@@ -22,7 +22,7 @@ LearnTrack is a console-based Student & Course Management System built with Core
 ## Project Structure
 
 ```
-src/com/airtribe/learntrack/
+src/com/learntrack/
 ├── Main.java                 # Menu & application entry point
 ├── entity/                   # Person, Student, Course, Enrollment
 ├── repository/               # In-memory ArrayList storage
@@ -46,14 +46,14 @@ docs/                         # Setup_Instructions, JVM_Basics, Design_Notes
 **Windows (PowerShell):**
 ```powershell
 javac -d out (Get-ChildItem -Recurse src -Filter *.java).FullName
-java -cp out com.airtribe.learntrack.Main
+java -cp out com.learntrack.Main
 ```
 
 **macOS / Linux:**
 ```bash
 find src -name "*.java" > sources.txt
 javac -d out @sources.txt
-java -cp out com.airtribe.learntrack.Main
+java -cp out com.learntrack.Main
 ```
 
 ## Class Diagram
