@@ -1,10 +1,10 @@
-package com.airtribe.learntrack.service;
+package com.learntrack.service;
 
-import com.airtribe.learntrack.entity.Student;
-import com.airtribe.learntrack.exception.EntityNotFoundException;
-import com.airtribe.learntrack.repository.StudentRepository;
-import com.airtribe.learntrack.util.IdGenerator;
-import com.airtribe.learntrack.util.InputValidator;
+import com.learntrack.entity.Student;
+import com.learntrack.exception.EntityNotFoundException;
+import com.learntrack.repository.StudentRepository;
+import com.learntrack.util.IdGenerator;
+import com.learntrack.util.InputValidator;
 import java.util.List;
 
 // Business logic for students. Talks to the repository; Main talks to this.

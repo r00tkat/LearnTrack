@@ -1,4 +1,4 @@
-package com.airtribe.learntrack.entity;
+package com.learntrack.entity;
 
 // Student IS-A Person, so it extends Person and reuses its fields.
 public class Student extends Person {

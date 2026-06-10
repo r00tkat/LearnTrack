@@ -1,6 +1,6 @@
-package com.airtribe.learntrack.entity;
+package com.learntrack.entity;
 
-import com.airtribe.learntrack.enums.CourseStatus;
+import com.learntrack.enums.CourseStatus;
 
 // Course does NOT extend Person (a course is not a person).
 public class Course {

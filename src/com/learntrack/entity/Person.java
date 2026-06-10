@@ -1,4 +1,4 @@
-package com.airtribe.learntrack.entity;
+package com.learntrack.entity;
 
 public class Person {
 

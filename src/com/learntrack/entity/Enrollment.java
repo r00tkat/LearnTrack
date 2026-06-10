@@ -1,6 +1,6 @@
-package com.airtribe.learntrack.entity;
+package com.learntrack.entity;
 
-import com.airtribe.learntrack.enums.EnrollmentStatus;
+import com.learntrack.enums.EnrollmentStatus;
 import java.time.LocalDate;
 
 // Enrollment links one student to one course.

@@ -1,6 +1,6 @@
-package com.airtribe.learntrack.util;
+package com.learntrack.util;
 
-import com.airtribe.learntrack.exception.InvalidInputException;
+import com.learntrack.exception.InvalidInputException;
 
 // Small helper to check user input before we use it.
 public class InputValidator {

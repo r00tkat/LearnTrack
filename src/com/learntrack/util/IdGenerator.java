@@ -1,6 +1,6 @@
-package com.airtribe.learntrack.util;
+package com.learntrack.util;
 
-import com.airtribe.learntrack.constants.AppConstants;
+import com.learntrack.constants.AppConstants;
 
 // Generates unique IDs using STATIC counters shared across the whole app.
 public class IdGenerator {

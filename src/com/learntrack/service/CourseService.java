@@ -1,11 +1,11 @@
-package com.airtribe.learntrack.service;
+package com.learntrack.service;
 
-import com.airtribe.learntrack.entity.Course;
-import com.airtribe.learntrack.enums.CourseStatus;
-import com.airtribe.learntrack.exception.EntityNotFoundException;
-import com.airtribe.learntrack.repository.CourseRepository;
-import com.airtribe.learntrack.util.IdGenerator;
-import com.airtribe.learntrack.util.InputValidator;
+import com.learntrack.entity.Course;
+import com.learntrack.enums.CourseStatus;
+import com.learntrack.exception.EntityNotFoundException;
+import com.learntrack.repository.CourseRepository;
+import com.learntrack.util.IdGenerator;
+import com.learntrack.util.InputValidator;
 import java.util.List;
 
 public class CourseService {

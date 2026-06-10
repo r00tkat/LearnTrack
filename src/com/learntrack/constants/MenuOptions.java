@@ -1,4 +1,4 @@
-package com.airtribe.learntrack.constants;
+package com.learntrack.constants;
 
 // Numeric menu choices, named so the menu code reads clearly.
 public final class MenuOptions {
